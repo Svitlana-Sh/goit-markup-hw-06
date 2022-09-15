@@ -450,91 +450,114 @@
     <!--footer-->
     <footer class="page-bottom">
       <div class="container bottom-box">
-        <div class="footer-left">
-        <a class="bottom-logo" href="./index.html">
-          <span class="bottom-logo-part">Web</span>Studio
-        </a>
-        <address>
-          <ul class="list">
-            <li class="retreat">
-              <a
-                class="map-point bottom-link"
-                href="https://goo.gl/maps/6KuGbbGbc5p562526"
-                target="_blank"
-                rel="nooperer norefferer nofollow"
-              >
-                м. Київ, пр-т Лесі Українки, 26
-              </a>
-            </li>
-            <li class="retreat">
-              <a
-                class="bottom-contact-mail bottom-link"
-                href="mailto:info@devstudio.com"
-              >
-                info@devstudio.com
-              </a>
-            </li>
-            <li class="retreat">
-              <a
-                class="bottom-phone-number bottom-link"
-                href="tel:+380961111111"
-              >
-                +38 096 111 11 11
-              </a>
-              </div>
-              <div class="join-container">
-                <h3 class="join">Приєднуйтесь</h3>
-                <ul class="social-list list">
-                  <li class="social-list-item">
-                    <a href="" class="social-list-link-join">
-                      <svg
-                        lang="en"
-                        aria-label="instagram icon"
-                        width="20" height="20"
-                      >
-                        <use href="./images/sprite.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="" class="social-list-link-join">
-                      <svg
-                        lang="en"
-                        aria-label="twitter icon"
-                        width="20" height="20"
-                      >
-                        <use href="./images/sprite.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="" class="social-list-link-join">
-                      <svg
-                        lang="en"
-                        aria-label="facebook icon"
-                        width="20" height="20"
-                      >
-                        <use href="./images/sprite.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-list-item">
-                    <a href="" class="social-list-link-join">
-                      <svg
-                        lang="en"
-                        aria-label="linkedin icon"
-                        width="20" height="20"
-                      >
-                        <use href="./images/sprite.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </address>
-      </div>
+           <div class="footer-left">
+               <a class="bottom-logo" href="./index.html">
+               <span class="bottom-logo-part">Web</span>Studio
+               </a>
+              <!--Контакти-->
+               <address>
+                 <ul class="list">
+                    <li class="retreat">
+                       <a
+                       class="map-point bottom-link"
+                       href="https://goo.gl/maps/6KuGbbGbc5p562526"
+                       target="_blank"
+                       rel="nooperer norefferer nofollow"
+                       >
+                       м. Київ, пр-т Лесі Українки, 26
+                      </a>
+                   </li>
+                   <li class="retreat">
+                       <a
+                       class="bottom-contact-mail bottom-link"
+                       href="mailto:info@devstudio.com"
+                       >
+                       info@devstudio.com
+                       </a>
+                   </li>
+                   <li class="retreat">
+                       <a
+                       class="bottom-phone-number bottom-link"
+                       href="tel:+380961111111"
+                       >
+                       +38 096 111 11 11
+                       </a>
+                   </li>
+                 </ul>
+            </div>
+                   <!--Соціальні мережі-->
+             <div class="join-container">
+                 <h3 class="join">Приєднуйтесь</h3>
+                 <ul class="social-list list">
+                     <li class="social-list-item">
+                         <a href="" class="social-list-link-join">
+                         <svg
+                           lang="en"
+                           aria-label="instagram icon"
+                           width="20" height="20"
+                           >
+                             <use href="./images/sprite.svg#icon-instagram"></use>
+                         </svg>
+                        </a>
+                      </li>
+                      <li class="social-list-item">
+                           <a href="" class="social-list-link-join">
+                           <svg
+                             lang="en"
+                             aria-label="twitter icon"
+                             width="20" height="20"
+                             >
+                               <use href="./images/sprite.svg#icon-twitter"></use>
+                           </svg>
+                           </a>
+                       </li>
+                       <li class="social-list-item">
+                           <a href="" class="social-list-link-join">
+                           <svg
+                             lang="en"
+                             aria-label="facebook icon"
+                             width="20" height="20"
+                             >
+                               <use href="./images/sprite.svg#icon-facebook"></use>
+                           </svg>
+                           </a>
+                       </li>
+                       <li class="social-list-item">
+                           <a href="" class="social-list-link-join">
+                            <svg
+                               lang="en"
+                               aria-label="linkedin icon"
+                               width="20" height="20"
+                               >
+                                 <use href="./images/sprite.svg#icon-linkedin"></use>
+                             </svg>
+                           </a>
+                        </li>
+                  </ul>
+             </div>
+          </address>
+          <!--Підписка на розсилку-->
+          <div class="footer-mailing-box">
+           <p class="footer-miling-title">Підпишіться на розсилку</p>
+           <form class="footer-miling-form">
+            <label class="footer-mailing">
+              <input tapy="email"
+              class="footer-mailing-imput"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              name="user_email"
+              placeholder="E-mail"
+              />
+            </label>
+            <button type="submit"
+            class="footer-mailing-buttom"
+            >Підписатися
+            <svg class="footer-mailing-buttom-icon" width="24" height="24">
+              <use href="./images/sprite.svg#icon-send"></use>
+            </svg>
+          </button>
+           </form>
+          </div>
+        </div>
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
@@ -582,7 +605,7 @@
                     <span class="modal-form-imput-wrappe">
                          <input type="email"
                             class="modal-form-imput"
-                            pattern="[a-zA-Z0-9_-]@[a-zA-Z]{0-5}.[a-zA-Z]{2-4}"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
                             name="user_email"
                           />
                         <svg

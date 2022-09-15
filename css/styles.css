@@ -78,6 +78,7 @@ body {
   align-items: center;
 }
 
+/* логотип */
 .logo {
   color: #000000;
   margin-right: 93px;
@@ -96,6 +97,7 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* навігація */
 .menu {
   display: flex;
   column-gap: 50px;
@@ -124,6 +126,7 @@ body {
   color: var(--accent-color);
 }
 
+/* підкреслення */
 .menu-link.current::after {
   content: "";
   position: absolute;
@@ -140,6 +143,7 @@ body {
   color: var(--accent-color);
 }
 
+/* контакти */
 .contact-list {
   display: flex;
   column-gap: 50px;
@@ -168,8 +172,13 @@ body {
 }
 
 /*===================/header====================*/
+
 /*====================MAIN======================*/
 /*===================SECTION 1==================*/
+
+/* основний акцент */
+
+/* фоновий малюнок */
 .main-top {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -184,6 +193,7 @@ body {
   margin: 0 auto;
 }
 
+/* заголовок */
 .headline {
   font-weight: 900;
   font-size: 44px;
@@ -195,7 +205,7 @@ body {
   color: #ffffff;
 }
 
-/*buttom*/
+/* buttom */
 .modal-open-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -222,6 +232,8 @@ body {
 }
 /*===================/section 1==================*/
 /*====================SECTION 2==================*/
+
+/* особливості */
 .features-list {
   display: flex;
   gap: 30px;
@@ -251,6 +263,7 @@ body {
   padding-top: 94px;
 }
 
+/*---приховування заголовку---- */
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -281,6 +294,8 @@ body {
 }
 /*===================/section 2==================*/
 /*====================section 3==================*/
+
+/* чим ми займаємося */
 
 .working-list {
   display: flex;
@@ -516,6 +531,72 @@ body {
   background-color: var(--accent-color);
 }
 
+/*-Підписка на розсилку-*/
+.footer-miling-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-miling-form {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-mailing-imput {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: #2f303a;
+  color: #ffffff;
+  cursor: text;
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+}
+
+.footer-mailing-imput::placeholder {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-mailing-buttom {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  background-color: var(--accent-color);
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  margin: 0 auto;
+  border: 0;
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color var(--transition-dur-and-func);
+}
+
+.footer-mailing-buttom-icon {
+  fill: #ffffff;
+  margin-left: 10px;
+}
+
+.footer-mailing-buttom:focus,
+.footer-mailing-buttom:hover {
+  background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
 /*======================/footer==================*/
 
 /*=====================PORTFOLIO=================*/
@@ -685,7 +766,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 528px;
-  height: 581px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -736,9 +816,10 @@ body {
 }
 
 .modal-form-imput {
-  cursor: pointer;
+  cursor: text;
   width: 100%;
   height: 40px;
+  font-size: 12px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding-left: 42px;
@@ -783,6 +864,7 @@ body {
   cursor: text;
   width: 100%;
   height: 120px;
+  font-size: 12px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding: 12px 16px;
@@ -817,7 +899,7 @@ body {
 }
 
 .modal-form-own-checkbox {
-  border: 1px solid #212121;
+  border: 2px solid #212121;
   border-radius: 2px;
   fill: #ffffff;
   cursor: pointer;
@@ -857,6 +939,10 @@ body {
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: #2196f3;
+}
+
+.conditions:hover {
+  text-decoration: none;
 }
 
 .modal-form-submit {
