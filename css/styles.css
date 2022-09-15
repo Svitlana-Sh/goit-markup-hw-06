@@ -532,6 +532,10 @@ body {
 }
 
 /*-Підписка на розсилку-*/
+.footer-mailing-box {
+  margin-left: auto;
+}
+
 .footer-miling-title {
   font-weight: 700;
   font-size: 14px;
